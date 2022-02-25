@@ -55,6 +55,7 @@ function createNavBar(labels, selectedPageIndex, pageConfigs, enableReadMode) {
 }
 
 async function fetchAndRun() {
+
   const pageConfigs = [];
   let selectedPageIndex = 0;
   const reportName = getAllUrlParams(window.location.href)["name"] || "amd"; // TODO: Fall back
