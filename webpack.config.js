@@ -4,6 +4,7 @@ const path = require("path");
 
 module.exports = {
   entry: ["./src/App.js"],
+  mode: "production",
   optimization: {
     minimizer: [
       new TerserPlugin({
