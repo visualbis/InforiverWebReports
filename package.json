@@ -13,7 +13,7 @@
   "dependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.6.3",
-    "@visualbi/ibcs-variancechart": "^0.0.96-agh"
+    "@visualbi/ibcs-variancechart": "^0.0.96-acy"
   },
   "devDependencies": {
     "babel-loader": "^8.2.2",
